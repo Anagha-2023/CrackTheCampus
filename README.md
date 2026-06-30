@@ -1,16 +1,54 @@
-# React + Vite
+# CrackTheCampus
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, high-converting landing page for CrackTheCampus — a comprehensive platform designed to help students prepare for placements, internships, and competitive aptitude tests.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Modern UI/UX**: Built with a sleek, premium dark/light mode aesthetic using Glassmorphism.
+- **Responsive Design**: Fully responsive across mobile, tablet, and desktop viewports.
+- **Fast Performance**: Powered by Vite and React for lightning-fast HMR and optimized production builds.
+- **Dynamic Animations**: Smooth scroll animations and hover effects using CSS keyframes.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: React.js (via Vite)
+- **Styling**: Tailwind CSS v4
+- **Icons**: Lucide React & Simple Icons
+- **Animations**: Native CSS Keyframes
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+You need to have Node.js installed on your machine. We recommend using Node.js v18 or higher.
+
+### Installation
+
+1. **Clone the repository** (if applicable) or download the source code:
+   ```bash
+   git clone <repository-url>
+   cd CrackTheCampus_LandingPage
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **View the application**:
+   Open your browser and navigate to `http://localhost:5173`.
+
+## Build for Production
+
+To build the app for production, run:
+```bash
+npm run build
+```
+This will generate an optimized build in the `dist` folder, ready for deployment.
